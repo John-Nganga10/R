@@ -112,16 +112,10 @@
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <section class="inner-page">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
-      </div>
-    </section>
-
-  </main><!-- End #main -->
-
+  {% block body %}
+      
+  {% endblock %}  
+  
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
@@ -210,6 +204,6 @@
   <!-- Template Main JS File -->
   <script src="{% static 'assets/js/main.js' %}"></script>
 
-</body>
 
+</body>
 </html>
